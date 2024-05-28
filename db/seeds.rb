@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+Rule.create(base_currency: "USD", quote_currency: "EUR", multiplier: 0.85, comparison_operator: "<")
