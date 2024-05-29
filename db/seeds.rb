@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-u = User.first
-Rule.create(base_currency: "USD", quote_currency: "EUR", multiplier: 0.85, comparison_operator: "<", user_id: u.id)
+Rule.create(base_currency: "usd", quote_currency: "eur", multiplier: 0.921, comparison_operator: "<", user_id: User.first.id)
+Rule.create(base_currency: "usd", quote_currency: "eur", multiplier: 0.921, comparison_operator: ">", user_id: User.last.id)
